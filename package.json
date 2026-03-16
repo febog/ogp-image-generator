@@ -1,6 +1,6 @@
 {
   "name": "@febog/ogp-image-generator",
-  "version": "1.0.0-beta",
+  "version": "0.1.0",
   "description": "Open Graph Protocol image generator for my personal blog.",
   "keywords": [
     "ogp",
