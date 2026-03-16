@@ -1,0 +1,31 @@
+{
+  "name": "@febog/ogp-image-generator",
+  "version": "1.0.0",
+  "description": "Open Graph Protocol image generator for my personal blog.",
+  "keywords": [
+    "ogp",
+    "OpenGraphProtocol",
+    "open-graph"
+  ],
+  "homepage": "https://github.com/febog/ogp-image-generator#readme",
+  "bugs": {
+    "url": "https://github.com/febog/ogp-image-generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/febog/ogp-image-generator.git"
+  },
+  "license": "MIT",
+  "author": "Felipe Bojorquez",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "satori": "^0.25.0",
+    "sharp": "^0.34.5",
+    "yargs": "^18.0.0"
+  }
+}
