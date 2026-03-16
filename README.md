@@ -35,3 +35,9 @@ Options:
 ## Output
 
 The generated PNG image will be located under `images/`.
+
+## Sample image
+
+The script will generate an image as follows:
+
+![Example of a generated open graph image showing the site name, blog post title and date in white letters on a blue background. The text says febog; Hello world!; March 16th, 2026.](assets/sample-output.png)
