@@ -1,5 +1,9 @@
 # Open Graph Image generator
 
+[![Publish package](https://github.com/febog/ogp-image-generator/actions/workflows/publish.yml/badge.svg)](https://github.com/febog/ogp-image-generator/actions/workflows/publish.yml)
+[![NPM Version](https://img.shields.io/npm/v/%40febog%2Fogp-image-generator)](https://www.npmjs.com/package/@febog/ogp-image-generator)
+[![NPM License](https://img.shields.io/npm/l/%40febog%2Fogp-image-generator)](https://www.npmjs.com/package/@febog/ogp-image-generator)
+
 Open Graph Protocol image generator for my personal blog.
 
 This script generates an open graph PNG image file for my personal blog for the given `title` and `date`.
