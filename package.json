@@ -19,6 +19,9 @@
   "author": "Felipe Bojorquez",
   "type": "module",
   "main": "main.js",
+  "bin": {
+    "ogp-image-gen": "./main.js"
+  },
   "scripts": {
     "start": "node main.js",
     "postversion": "git push && git push --tags",
