@@ -3,16 +3,18 @@ import path from "path";
 import satori from "satori";
 import sharp from "sharp";
 
+const ASSETS_PATH = path.resolve(import.meta.dirname, "assets");
+
 const WIDTH = 1200;
 const HEIGHT = 630;
 
 async function generateImage({ title, date, blogName, output }) {
   const robotoBoldData = await fs.readFile(
-    path.resolve("assets/Roboto-Bold.ttf")
+    path.resolve(ASSETS_PATH, "Roboto-Bold.ttf")
   );
 
   const robotoMediumData = await fs.readFile(
-    path.resolve("assets/Roboto-Medium.ttf")
+    path.resolve(ASSETS_PATH, "Roboto-Medium.ttf")
   );
 
   const svg = await satori(
