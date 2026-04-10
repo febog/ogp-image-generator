@@ -18,7 +18,7 @@ npm install -g @febog/ogp-image-generator
 
 Set the required options `title`, `date` and `filename`. You can change the site name with the optional argument `site`.
 
-Run:
+Example:
 
 ```
 ogp-image-gen -t 'Hello world!' -d 'March 12th, 2026' -f 'my-image'
