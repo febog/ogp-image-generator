@@ -11,7 +11,7 @@ This script generates an open graph PNG image file for my personal blog for the 
 ## Installation 
 
 ```
-npm install
+npm install -g @febog/ogp-image-generator
 ```
 
 ## Usage
